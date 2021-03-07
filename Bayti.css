@@ -1,0 +1,170 @@
+/*-------delete scroll-------*/
+body{
+    overflow-x: hidden;
+}
+/*-------Logo-------*/
+header img {
+    height: 100px;
+	
+} 
+
+
+/*-------NavBar-------*/
+header {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    display: flex;
+	justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+	font-size:15px;
+}
+header * {
+    display: inline;
+
+}
+header li {
+    margin: 50px;
+}
+
+header li a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.active:hover {
+    background:rgba(94, 185, 238, 0.568);
+    transition: .5s;
+}
+
+/*-------Background-------*/
+body {
+    
+    background-image:url(Sidibou.jpg);
+    background-size: 100% 700px;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+	
+}
+
+/*-------Slogan-------*/
+
+.cadre { 
+	color:white;
+	font-size: 30px;
+    text-align: center;
+	margin-top: 360px;
+	width: 60%;
+	margin-left: 20%;
+	border: 2px solid white; padding: 5px;
+    background-color: rgba(0, 0, 0, 0.404);
+	
+}
+
+h1{
+    color: rgba(44, 41, 41, 0.61);
+    text-align: center;
+    margin-top: 280px;
+    text-shadow: 2px 2px 5px rgb(121, 138, 138);
+}
+
+.container {
+display: flex;
+align-items: center;
+margin: 10%;
+margin-top: 15px;
+}
+
+.baytimage{
+	height: 20rem;
+	width: 20rem;
+	border-radius: 50%;
+	box-shadow: 0 0 25px 0 black;  
+	margin-right: 30px;
+}
+
+h2{
+    color: rgba(44, 41, 41, 0.61);
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 2px 2px 5px rgb(121, 138, 138);
+}
+
+footer{
+background-color: #232323;
+color: #eee;
+padding: 10px ;
+flex-shrink: 0;
+width: 100%;
+bottom: 0px;
+left: 0px;
+right:0px
+}
+
+.conteneur {
+width: 1200px;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+justify-items: flex-start;
+font-size: 15px;
+padding: 50px 0 100px;
+}
+
+.bloc{
+	width: 25%;
+	margin: 0 30px;
+}
+
+/* contact */
+.form h3,
+.contact h3,
+.socialmedia h3 {
+    color: rgba(203, 204, 204, 0.89);
+	font-size: 25px;
+	padding-bottom: 20px;
+}
+.contact p {
+	padding: 5px 0 ;
+}
+/* Social media */
+.socialmedia li {
+	list-style-type: none;
+}
+.socialmedia a {
+	color: #eee;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.copyright {
+	color: rgb(148, 158, 158);
+	
+}
+
+
+
+#slideshow {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#slideshow img{
+	height: 200px;
+	height: 200px;
+}
+
+.recherche {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
